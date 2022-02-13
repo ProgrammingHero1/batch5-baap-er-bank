@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +7,6 @@
     <title>Banking Page</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-
 <body>
     <header>
         <h1 class="text-5xl text-center mt-8">Let's get some <span
@@ -41,7 +39,7 @@
                     <div>
                         <input id="deposit-input" class="border block border-gray-400	rounded w-3/4 mb-4 px-2"
                             type="text" placeholder="$ amount you want to deposit">
-                        <button id="deposit-button"
+                        <button id="deposit-button" onclick="depositAction()"
                             class="bg-yellow-600 px-4 rounded py-2 text-white font-medium">Deposit</button>
                     </div>
                 </div>
@@ -50,14 +48,14 @@
                     <div>
                         <input id="withdraw-input" class="border block border-gray-400	rounded w-3/4 mb-4 px-2"
                             type="text" placeholder="$ amount you want to withdraw">
-                        <button id="withdraw-button"
+                        <button id="withdraw-button" onclick="withdrawAction()"
                             class="bg-yellow-600 px-4 rounded py-2 text-white font-medium">Withdraw</button>
                     </div>
                 </div>
             </div>
         </section>
     </main>
-    <script src="js/banking.js"></script>
+    <script src="js/by-function.js"></script>
 </body>
 
 </html>
